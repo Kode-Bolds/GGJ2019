@@ -669,7 +669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourceType: 1
   gatherTick: 4
-  availableResource: 50
+  availableResource: 200
   gatherers: 0
 --- !u!135 &135883641859661042
 SphereCollider:
