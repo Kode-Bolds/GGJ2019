@@ -69,6 +69,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfeca60123d2407419a4be3575dc366b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  populationText: {fileID: 0}
+  popVictoryAmount: 0
+  timeToSustain: 0
 --- !u!114 &114492730085199186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58865a1fe298fb84e8b57ab4e66ae78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FoodPerPerson: 1
+  FoodPerPerson: 0.5
   TickTime: 10
 --- !u!114 &114674834707858798
 MonoBehaviour:
@@ -108,6 +111,9 @@ MonoBehaviour:
   - {fileID: 1593410935684236, guid: 23a90fd1c36f6864c824265fa4da1602, type: 2}
   - {fileID: 1872365406048768, guid: 73ed3210287a9894f8fef8346b4d7a99, type: 2}
   buildings: []
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   Radius: 25
   Colour: {r: 0.18177521, g: 1, b: 0, a: 0.30588236}
   selectionButtonPressed: 0
